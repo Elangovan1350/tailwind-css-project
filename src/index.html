@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>tailwind css</title>
+  </head>
+
+  <body>
+    <!-- navbar start -->
+    <nav
+      class="flex justify-between items-center font-medium text-lg capitalize h-[80px]"
+    >
+      <div class="flex-1">
+        <img src="./image/logo-white.png" alt="" />
+      </div>
+      <div class="flex-1 lg:inline-block hidden">
+        <ul class="flex justify-between gap-x-5">
+          <li>
+            <a href="#" class="hover:underline underline-offset-4">home</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline underline-offset-4">features</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline underline-offset-4">products</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline underline-offset-4"
+              >categories</a
+            >
+          </li>
+          <li>
+            <a href="#" class="hover:underline underline-offset-4">reviews</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline underline-offset-4">blog's</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-1 flex justify-end items-center gap-x-2 sm:gap-x-3 md:gap-x-5 lg:gap-x-7 xl:gap-x-10">
+        <a
+          href=""
+          class="bg-slate-300 hover:bg-slate-400 px-3 py-2 sm:px-5 sm:py-3 rounded shadow-lg shadow-gray-500"
+          ><i class="fa-solid fa-magnifying-glass"></i
+        ></a>
+        <a
+          href=""
+          class="bg-slate-300 hover:bg-slate-400 px-3 py-2 sm:px-5 sm:py-3  rounded shadow-lg shadow-gray-500"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+        <a
+          href=""
+          class="bg-slate-300 hover:bg-slate-400 px-3 py-2 sm:px-5 sm:py-3 rounded mr-1 md:mr-3 lg:mr-5 shadow-lg shadow-gray-500"
+          ><i class="fa-solid fa-user"></i
+        ></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- hero section start -->
+    <section class="relative h-96">
+      <div class="h-full w-full">
+        <img
+          src="./image/banner-bg.webp"
+          alt=""
+          class="h-full w-full object-cover object-center"
+        />
+      </div>
+      <div
+        class="absolute top-0 h-full w-full flex flex-col justify-center items-center capitalize"
+      >
+        <h1 class="text-4xl font-semibold mb-3 text-center text-orange-500">
+          Lorem ipsum dolor sit amet.
+        </h1>
+        <p class="text-center lg:w-2/5 w-4/5 font-light text-lg">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam,
+          incidunt. Corrupti iste iusto natus. Nobis saepe quod laudantium ipsam
+          ut!
+        </p>
+        <button
+          class="border-solid border-2 capitalize border-slate-700 hover:text-white hover:border-orange-500 hover:bg-orange-500 active:scale-90 active:bg-orange-400 active:border-orange-400 font-semibold my-5 px-5 py-2"
+        >
+          buy now
+        </button>
+      </div>
+    </section>
+    <!-- hero section end -->
+  </body>
+</html>
