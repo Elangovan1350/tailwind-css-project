@@ -14,7 +14,7 @@
     <title>tailwind css</title>
   </head>
 
-  <body class="bg-slate-200">
+  <body class="bg-slate-200 text-slate-500">
     <!-- navbar start -->
     <nav
       class="flex justify-between items-center font-medium text-lg capitalize h-[80px] bg-white"
@@ -81,7 +81,8 @@
         class="absolute top-0 h-full w-full flex flex-col justify-center items-center capitalize"
       >
         <h1 class="text-3xl font-bold mb-3 text-center">
-          fresh and <span class="text-orange-500">organic</span> products for you
+          fresh and <span class="text-orange-500">organic</span> products for
+          you
         </h1>
         <p class="text-center lg:w-2/5 w-4/5 font-light text-lg">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam,
@@ -399,7 +400,7 @@
       </h1>
       <div class="w-11/12 flex flex-wrap gap-10 justify-center">
         <section
-          class="h-[290px]  w-[290px] bg-white flex flex-col items-center justify-center border-2 border-gray-500 border-solid hover:border-4"
+          class="h-[290px] w-[290px] bg-white flex flex-col items-center justify-center border-2 border-gray-500 border-solid hover:border-4"
           style="box-shadow: 0 0 0 10px #ffffff"
         >
           <img src="./image/pic-1.png" alt="" class="h-24 rounded-full mb-2" />
@@ -516,7 +517,7 @@
           </div>
         </section>
         <section
-          class=" h-[400px] sm:h-[380px] w-[350px] bg-white flex flex-col rounded items-center hover:scale-105"
+          class="h-[400px] sm:h-[380px] w-[350px] bg-white flex flex-col rounded items-center hover:scale-105"
         >
           <img
             src="./image/blog-2.jpg"
@@ -580,16 +581,117 @@
     <!-- blog's card end -->
 
     <!-- footer start -->
-    <footer class="h-[40vh] bg-white">
-
-
+    <footer class=" bg-white pb-5 px-5 justify-center md:px-20 flex flex-wrap font-medium text-slate-500">
+      <div class="w-72 ">
+        <h1 class="text-2xl font-bold capitalize text-blue-500 py-5 pb-3">
+          achievers
+          <span class="text-orange-500 uppercase"
+            >it<i class="fa-solid fa-basket-shopping"></i
+          ></span>
+        </h1>
+        <p class="mb-2 w-11/12">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+          nesciunt?
+        </p>
+        <p>
+          <i
+            class="fa-brands fa-facebook px-2 rounded py-2 bg-slate-300 mr-1"
+          ></i
+          ><i
+            class="fa-brands fa-twitter px-2 rounded py-2 bg-slate-300 mr-1"
+          ></i>
+          <i
+            class="fa-brands fa-instagram px-2 rounded py-2 bg-slate-300 mr-1"
+          ></i
+          ><i
+            class="fa-brands fa-linkedin px-2 rounded py-2 bg-slate-300 mr-1"
+          ></i>
+        </p>
+      </div>
+      <div class="w-72 ">
+        <h1 class="text-2xl font-bold capitalize text-blue-500 py-5 pb-3">
+          contact info
+        </h1>
+        <ul class="capitalize">
+          <li class="mb-1">
+            <i class="fa-solid fa-phone fa-rotate-270 text-orange-500"></i>
+            +638-347-9344
+          </li>
+          <li class="mb-1">
+            <i class="fa-solid fa-phone fa-rotate-270 text-orange-500"></i>
+            +638-347-9344
+          </li>
+          <li class="mb-1">
+            <i class="fa-solid fa-envelope text-orange-500"></i>
+            elangovan2019miss@gmail.com
+          </li>
+          <li class="mb-1">
+            <i class="fa-solid fa-location-dot text-orange-500"></i> bengaluru,
+            india - 500002
+          </li>
+        </ul>
+      </div>
+      <div class="w-72">
+        <h1 class="text-2xl font-bold capitalize text-blue-500 py-5 pb-3">
+          quick link
+        </h1>
+        <ul class="capitalize">
+          <li class="mb-1">
+            <a href="#"
+              ><i class="fa-solid fa-arrow-right text-orange-500"></i> home</a
+            >
+          </li>
+          <li class="mb-1">
+            <a href="#"
+              ><i class="fa-solid fa-arrow-right text-orange-500"></i>
+              features</a
+            >
+          </li>
+          <li class="mb-1">
+            <a href="#"
+              ><i class="fa-solid fa-arrow-right text-orange-500"></i>
+              products</a
+            >
+          </li>
+          <li class="mb-1">
+            <a href="#"
+              ><i class="fa-solid fa-arrow-right text-orange-500"></i>
+              categories</a
+            >
+          </li>
+          <li class="mb-1">
+            <a href="#"
+              ><i class="fa-solid fa-arrow-right text-orange-500"></i> review</a
+            >
+          </li>
+          <li class="mb-1">
+            <a href="#"
+              ><i class="fa-solid fa-arrow-right text-orange-500"></i> blogs</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="w-72">
+        <h1 class="text-2xl font-bold capitalize text-blue-500 py-5 pb-3">
+          newsletter
+        </h1>
+        <p class="capitalize">subscribe forlatest update</p>
+        <input type="text" placeholder="your email" class="bg-slate-300 p-1" />
+        <button
+          class="border-solid border-2 capitalize border-slate-700 hover:text-white hover:border-orange-500 hover:bg-orange-500 active:scale-90 active:bg-orange-400 active:border-orange-400 font-semibold my-2 px-5 py-2"
+        >
+          subscribe
+        </button>
+        <img src="./image/payment.png" alt="">
+      </div>
     </footer>
     <!-- footer end -->
     <!-- creator detial start -->
     <div class="bg-white px-5">
-      <hr class="h-[3px] bg-slate-500">
-      <h1 class="text-center font-semibold text-4xl capitalize py-5">
-        created by <span class="text-orange-500">Mr.Elangovan</span> | all right reserved
+      <hr class="h-[3px] bg-slate-500" />
+      <h1 class="text-center font-semibold text-xl capitalize py-5">
+        created by <span class="text-orange-500">Mr.Elangovan</span> | all right
+        reserved
       </h1>
     </div>
     <!-- creator detail end -->
